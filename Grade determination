@@ -1,0 +1,30 @@
+include<stdio.h>
+void main()
+{
+    int marks;
+    char choice,GradeA,GradeB,GradeC,GradeD,GradeF;
+    printf("Enter marks");
+    scanf("%d",&marks);
+    printf("Enter a choice");
+    scanf("%c",&choice);
+    printf("\n 1.The mark scored is from 100 to 85");
+    printf("\n2.The mark scored is from 84 to 70");
+    printf("\n3.The mark scored is from 69 to 55");
+    printf("\n 4.The mark scored if from 54 to 40");
+    switch(choice)
+    { case '1':
+      printf("Grade A");
+      break;
+      case '2':
+      printf("Grade B");
+       break;
+       case 3:
+       printf("Grade C");
+       break;
+       case 4:
+       printf("Grade D");
+       break;
+       default:
+       printf("Grade F");
+}
+}
